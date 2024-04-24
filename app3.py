@@ -40,5 +40,5 @@ def table_def(table_name):
     return df
 
 
-#table_def('EMP')
-st.dataframe(emp)  # Same as st.write(df)
+a =table_def('EMP')
+st.dataframe(a)  # Same as st.write(df)
