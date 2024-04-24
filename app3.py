@@ -1,3 +1,7 @@
+import cx_Oracle
+import pandas as pd
+import streamlit as st
+
 def table_def(table_name):
     import cx_Oracle
     import pandas as pd
