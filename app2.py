@@ -3,7 +3,7 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-emp = pd.read_csv("c:\\data\\emp.csv")
+emp = pd.read_csv("emp.csv")
 source = emp[['ename','sal']]
 
 bars = alt.Chart(source).mark_bar().encode(
